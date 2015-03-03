@@ -9,5 +9,5 @@
     });
   }
 
-  generateModule('bugsnag', { 'default': Bugsnag });
+  generateModule('bugsnag', { 'default': Bugsnag.noConflict() });
 })();
