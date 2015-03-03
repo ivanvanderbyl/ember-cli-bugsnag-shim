@@ -1,0 +1,24 @@
+{
+  "name": "ember-cli-bugsnag-shim",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ivanvanderbyl/ember-cli-bugsnag-shim",
+  "authors": [
+    "Ivan Vanderbyl <ivanderbyl@digitalocean.com>"
+  ],
+  "description": "An ES6 module shim for Bugsnag",
+  "keywords": [
+    "bugsnag"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bugsnag": "~2.4.7"
+  }
+}
